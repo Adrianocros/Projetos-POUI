@@ -1,0 +1,23 @@
+<div class="formulario">
+    <mat-form-field>
+        <mat-label>CNPJ</mat-label>
+        <input matInput id="cnpj"  name="cnpj" (focusout)= validCNPJImput() >
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input matInput id="name" name="name" >
+    </mat-form-field>
+
+    <mat-form-field >
+        <mat-label >E-Mail</mat-label>
+        <input matInput id="email" name="email">
+    </mat-form-field>
+
+    <mat-divider></mat-divider>
+
+    <div class="button-row">
+        <button mat-flat-button color="primary" (click)="clickeOnConfirm()">Confirmar</button>
+        <button mat-flat-button color="warn" (click)="clickeOnClear()">Limpar</button>
+    </div>
+</div>

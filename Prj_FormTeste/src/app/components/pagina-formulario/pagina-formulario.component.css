@@ -1,0 +1,35 @@
+.formulario{
+    display: flex;
+    flex-direction:  column;
+    justify-content: cente;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+
+.button-row{
+    display: table-cell;
+    max-width: 600px;
+}
+
+mat-form-field{
+    width: 30rem;
+    text-align: center;
+}
+
+
+
+
+button{
+    margin-right:  10px;
+}
+
+.button-row :hover{
+    background-color: cornflowerblue;
+}
+
+.mat-divider{
+    padding: 5px;
+    width: 25rem;
+   
+}
